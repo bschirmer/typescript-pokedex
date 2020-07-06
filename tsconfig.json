@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+      "jsx": "react",
       "target": "es5",
       "module": "commonjs",
       "outDir": "public/js",
@@ -8,8 +9,5 @@
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src"]
 }
